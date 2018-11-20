@@ -64,7 +64,7 @@ function resultsHandling(err, queryString, id) {
     }else {
         query.message = `Нет результатов по запросу: "${queryString}"`;
     }
-    console.log(query)
+    // console.log(query)
     db.get('queries')
         .push(query)
         .write();
