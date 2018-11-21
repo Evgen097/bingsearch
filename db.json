@@ -6,6 +6,7 @@
       "error": null,
       "date": "суббота, 17 ноября 2018 г., 11:51",
       "message": "Обработка завершена, получено: 99 соответствий",
+      "sentmessages": 0,
       "webpages": [
         {
           "id": "https://api.cognitive.microsoft.com/api/v7/#WebPages.0",
@@ -73,21 +74,8 @@
         }
       ],
       "emails": [
-        "geospektr7@gmail.com",
-        "pravozashita2013@gmail.com",
-        "geotop57@gmail.com",
-        "info@proconsul.com.ua",
-        "web@proconsul.com.ua",
-        "dpdom@proconsul.com.ua",
-        "development@proconsul.com.ua",
-        "ocenka@proconsul.com.ua",
-        "arenda@proconsul.com.ua",
-        "analytics@proconsul.com.ua",
-        "novostroy@proconsul.com.ua",
-        "dpkvartira@proconsul.com.ua",
-        "dzo@proconsul.com.ua",
-        "ipoteka@proconsul.com.ua",
-        "grandcenter@ukr.net"
+        "k0990245853@gmail.com",
+        "0971101550@ukr.net"
       ],
       "emailstatistics": {
         "https://geospectr-7.com.ua/contact": [
@@ -186,5 +174,10 @@
         "https://kharkov.info/contact": []
       }
     }
+  ],
+  "allsentemails": [
+    "giprokoks@ic.kharkov.ua",
+    "info@psk.com.ua",
+    "ukrzem.ua@gmail.com"
   ]
 }

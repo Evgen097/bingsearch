@@ -1,12 +1,12 @@
 
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
+const low = require('lowdb');
+const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('db.json')
+const adapter = new FileSync('../db.json');
 const db = low(adapter);
 
 var setDbDefaults = ()=>{
-    db.defaults({queries: [] })
+    db.defaults({queries: [], allsentemails: [] })
         .write()
 
     // db.set('user', data.user)
@@ -24,9 +24,13 @@ var setDbDefaults = ()=>{
     //     .write();
 
 }
-setDbDefaults();
+if ( !db.get('queries').size().value() ) setDbDefaults();
+
+// console.log( db.get('queries').size().value())
 
 module.exports = db;
+
+
 
 
 
